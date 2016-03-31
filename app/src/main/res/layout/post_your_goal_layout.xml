@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:background="@color/uper_bar_dark"
+        android:id="@+id/post_your_goal_bar">
+        <TextView
+            android:id="@+id/post_your_goal_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@drawable/text_view_selector"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cancel"
+            android:clickable="true"
+            android:onClick="onCancelPostGoal"/>
+        <TextView
+            android:id="@+id/post_your_goal_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/baby_blue"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="URL"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/post_your_goal_image"
+        android:layout_below="@+id/post_your_goal_bar"/>
+    <Button
+        android:id="@+id/post_your_goal_button"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:background="@color/baby_blue"
+        android:textColor="@android:color/white"
+        android:text="@string/post_your_goal_button"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentBottom="true"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/post_your_goal_progress"/>
+    <TextView
+        android:id="@+id/post_your_goal_progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_your_goal_progress"
+        android:text="Uploading video. Please wait."
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="baby_blue">#FF7f98cb</color>
+    <color name="baby_blue_edit">#FF7E98CB</color>
+    <color name="profile_edit_background">#FF161719</color>
+    <color name="uper_bar_dark">#FF202426</color>
+    <color name="nonselected_item_bar_color">#FF1a1c1e</color>
+    <color name="selected_item_bar_color">#FF202426</color>
+    <color name="star_yellow">#FFf1ea65</color>
+    <color name="orange_cancel">#FFBF604C</color>
+    <color name="orange_delete">#FFE36E53</color>
+    <color name="green_save">#FF84A252</color>
+    <color name="grey_text_comment">#FF595E62</color>
+    <color name="grey_text_edit">#FF7F7F81</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/uper_bar_dark"
+    android:weightSum="6"
+    android:padding="20dp">
+    <ImageView
+        android:id="@+id/comment_single_user_image"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/male_avatar"
+        android:layout_gravity="center_vertical" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <TextView
+                android:id="@+id/comment_single_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""/>
+            <TextView
+                android:id="@+id/comment_single_user_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_alignParentRight="true"
+                android:text=""/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/comment_single_user_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_text_comment"
+            android:text=""
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+    </LinearLayout>
+</LinearLayout>

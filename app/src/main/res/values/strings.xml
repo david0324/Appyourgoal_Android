@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AppYourGoal</string>
+
+    //Initial screen
+    <string name="initial_login_button">LOG IN</string>
+    <string name="initial_sign_up_button">SIGN UP</string>
+
+    //Login screen
+    <string name="login_email">EMAIL</string>
+    <string name="login_password">PASSWORD</string>
+    <string name="login_login_button">LOG IN</string>
+    <string name="login_trouble_login">Trouble loging in?</string>
+    <string name="login_sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="login_sign_up_button">SIGN UP</string>
+
+    //Sign Up Screen
+    <string name="sign_up_username">USERNAME</string>
+    <string name="sign_up_email">EMAIL</string>
+    <string name="sign_up_password">PASSWORD</string>
+    <string name="sign_up_button">SIGN UP</string>
+
+    //Goal screen
+    //Spiner in NavBar data
+    <string-array name="goal_screen_spinner_data">
+        <item>Most Recent</item>
+        <item>Most Liked</item>
+    </string-array>
+
+    //Podium screen
+    //Spiner in NavBar data
+    <string-array name="podium_screen_spinner_data">
+        <item>Best Goals</item>
+        <item>Hall of Fame</item>
+    </string-array>
+
+    //Camera screen
+    <string name="flash_off">Flash Off</string>
+    <string name="flash_on">Flash On</string>
+
+    //Post your goal screen
+    <string name="post_your_goal_button">POST YOUR GOAL</string>
+
+    //Comment screen
+    <string name="dumy_comment">Ouch. As you can see, shooting high
+        means you have a pretty low percentage
+        of actually scoring</string>
+
+</resources>
